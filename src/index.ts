@@ -68,9 +68,9 @@ const swaggerOptions: swaggerJSDoc.Options = {
   swaggerDefinition: {
     openapi: '3.0.0',
     info: {
-      title: 'Batch Process Dashboard Mid-Tier',
+      title: 'Code Sample - Backend Service',
       version: npm_package_version ?? '0.0.0',
-      description: 'Retrieve batch process status from SQL server database',
+      description: 'Code Sample of Backend Service App',
     },
     servers: [
       {
