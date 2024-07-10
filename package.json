@@ -1,0 +1,73 @@
+{
+  "name": "code-sample-backend-service",
+  "version": "1.0.0",
+  "description": "Code Sample - Express Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --pretty --transpile-only ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p .",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jercymat/code-sample-backend-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jercymat/code-sample-backend-service/issues"
+  },
+  "homepage": "https://github.com/jercymat/code-sample-backend-service#readme",
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/csurf": "^1.11.5",
+    "@types/jest": "^29.5.12",
+    "@types/jest-json-schema": "^6.1.4",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/ldapjs": "^3.0.6",
+    "@types/method-override": "^0.0.35",
+    "@types/morgan": "^1.9.9",
+    "@types/mssql": "^9.1.4",
+    "@types/node-cron": "^3.0.11",
+    "@types/snowflake-sdk": "^1.6.20",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "jest-json-schema": "^6.1.0",
+    "k6": "^0.0.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validation": "^4.1.0",
+    "helmet": "^7.0.0",
+    "http-status": "^1.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "ldapjs": "^3.0.7",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "mssql": "^10.0.3",
+    "node-cron": "^3.0.3",
+    "snowflake-sdk": "^1.9.3",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.10.0"
+  }
+}
